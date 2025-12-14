@@ -1,0 +1,29 @@
+{
+    "defaultKernel": "python3",
+    "kernels": {
+        "python3": {
+            "name": "python3",
+            "display_name": "Python 3",
+            "language": "python",
+            "argv": [
+                "C:\\Python313\\python.exe",
+                "-m",
+                "ipykernel_launcher",
+                "-f",
+                "{connection_file}"
+            ]
+        },
+        "dsa-course-kernel": {
+            "name": "dsa-course-kernel",
+            "display_name": "Python (DSA Course)",
+            "language": "python",
+            "argv": [
+                "C:\\Python313\\python.exe",
+                "-m",
+                "ipykernel_launcher",
+                "-f",
+                "{connection_file}"
+            ]
+        }
+    }
+}

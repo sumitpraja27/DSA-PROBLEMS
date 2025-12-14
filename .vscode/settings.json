@@ -67,5 +67,23 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp"
+    },
+    "python.defaultInterpreterPath": "C:\\Python313\\python.exe",
+    "jupyter.jupyterServerType": "local",
+    "jupyter.kernels.filter": [],
+    "python.terminal.activateEnvironment": true,
+    "jupyter.defaultKernel": "python3",
+    "jupyter.kernelspec.path": "${workspaceFolder}/.vscode/kernels",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.askForKernelRestart": false,
+    "jupyter.enableExtendedKernelCompletions": true,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right"
+    },
+    "notebook.output.scrolling": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
     }
 }
