@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the sie of array: ";
+    cout<<"Enter the size of array: ";
     cin>>n;
     int arr[n];
     //input 

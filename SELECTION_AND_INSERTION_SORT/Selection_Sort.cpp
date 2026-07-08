@@ -15,7 +15,7 @@ int main(){
     }
     cout<<endl;
     // Selection sort
-    for(int i=0; i<n-1;i++){
+    for(int i=0; i<n-1; i++){
         int min = INT16_MAX;
         int minidx = -1;
         // Minimum element calculation in respective array

@@ -3,7 +3,7 @@
 using namespace std; 
 int main(){
 int x;
-cout<<"Enter the traget: ";
+cout<<"Enter the target: ";
 cin>>x;
 vector <int> v;
 int n;
