@@ -9,6 +9,5 @@ void sum1ToN(int sum, int n){
 
 }
 int main(){
-    int n;
     sum1ToN(0,4);
 }
