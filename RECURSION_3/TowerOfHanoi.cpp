@@ -1,6 +1,6 @@
 #include <iostream> 
 using namespace std;
-void hanoi(int n, char a, char b, char c ){
+void hanoi(int n, char a, char b, char c ){// b is helper
     if(n==0) return ;
     hanoi(n-1,a,c,b);
     cout<<a<<" --> "<<c<<endl;
