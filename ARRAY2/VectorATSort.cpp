@@ -14,5 +14,5 @@ int main(){
     }
     cout<<endl;
     //sort
-  
+
 }

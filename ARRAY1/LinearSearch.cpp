@@ -12,11 +12,11 @@ int main(){
     int x;
     cout<<"Enter the element you want to search: ";
     cin>>x;
-    // search
+    // Linear search
     bool flag = false;// //false-> element is not present
     for(int i=0; i<=n-1; i++){
         if(arr[i]==x)
-           flag = true; 
+        flag = true; 
         
     }
         if(flag==true)

@@ -1,6 +1,6 @@
 #include<iostream>
- using namespace std;
- int main(){
+using namespace std;
+int main(){
     int m;
     cout<<"Enter the no. of rows:";
     cin>>m;
@@ -26,9 +26,9 @@
 for(int i=0;i<m; i++){// rows
     for(int j=i+1; j<n; j++){ // columns
        // swappping of i,j and j,i
-       int temp = arr[i][j];
-       arr[i][j] = arr[j][i];
-       arr[j][i] = temp;
+    int temp = arr[i][j];
+    arr[i][j] = arr[j][i];
+    arr[j][i] = temp;
     }
 }
 // printing the transpose
@@ -38,4 +38,4 @@ for(int i=0; i<m; i++){
     }
     cout<<endl;
 }
- }
+}

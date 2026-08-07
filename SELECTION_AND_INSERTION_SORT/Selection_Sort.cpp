@@ -25,10 +25,10 @@ int main(){
                 minidx = j;
             }
         }
-         swap(arr[i], arr[minidx]);
+        swap(arr[i], arr[minidx]);
     }
         for(int i=0; i<n; i++){
             cout<<arr[i]<<" ";
         }
-       
+
 } 

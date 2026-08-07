@@ -22,7 +22,7 @@ int main(){
 
     //********* BUBBLE SORT OPTIMIZED ******************
 
-    for(int i=0; i<n-1; i++){// n-1 passes
+    for(int i=0; i<n-1; i++){// For n-1 passes
     // Traverse
     bool flag = true;
     for(int j=0; j<n-1-i; j++){

@@ -2,7 +2,7 @@
 #include<climits>
 using namespace std;
 int main(){
- int m;
+    int m;
     cout<<"Enter the no. of rows:";
     cin>>m;
     int n;

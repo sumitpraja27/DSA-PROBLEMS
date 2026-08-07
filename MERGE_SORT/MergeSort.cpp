@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <vector> 
 using namespace std;
+// TIME COMPLEXITY: O(nlogn)
 void merge(vector<int>& a, vector<int>& b, vector<int>& res ){
     int i = 0;
     int j = 0;
@@ -31,12 +32,14 @@ void merge(vector<int>& a, vector<int>& b, vector<int>& res ){
     }
     
 }
-void mergeSort(vector<int>& v){ // This is dividing the array
+void divide(vector<int>& v){ // This is dividing the array
     int n = v.size();
     if(n==1) return;
     int n1 = n/2, n2 = n-n/2;
     vector<int> a(n1);
     vector<int> b(n2);
+    
+    //Inserting the elements in a and b from vector v
     for(int i=0; i<n1; i++){
         a[i] = v[i];
     }
@@ -44,8 +47,8 @@ void mergeSort(vector<int>& v){ // This is dividing the array
         b[i] = v[i+n1];
     }
     // recursion
-    mergeSort(a);
-    mergeSort(b);
+    divide(a);
+    divide(b);
     // merge arrays
     merge(a,b,v);
     a.clear(); // To delete the array "a" when it is of size 1
@@ -62,7 +65,7 @@ int main(){
         cout<<v[i]<<" ";
     }
     cout<<endl;
-    mergeSort(v);
+    divide(v);
     for(int i=0; i<v.size(); i++){
         cout<<v[i]<<" ";
     }

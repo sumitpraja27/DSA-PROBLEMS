@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
- int m;
+int m;
     cout<<"Enter the no. of rows:";
     cin>>m;
     int n;
@@ -14,7 +14,7 @@ int main(){
         }
     }
     // sum
-  int sum = 0;
+int sum = 0;
     for(int i=0; i<m; i++){
         for(int j=0; j<n; j++){
             sum += arr[i][j];
